@@ -1,0 +1,35 @@
+{
+  "name": "scl008-hackaton-registro-visitantes",
+  "version": "1.0.0",
+  "description": "hackaton-registro-visitantes",
+  "main": "src/index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/josefin-ferrada/SCL008-Hackaton-Registro-Visitantes.git"
+  },
+  "keywords": [
+    "firebase",
+    "registro",
+    "visitantes"
+  ],
+  "author": "lucila, caro, josefin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josefin-ferrada/SCL008-Hackaton-Registro-Visitantes/issues"
+  },
+  "homepage": "https://github.com/josefin-ferrada/SCL008-Hackaton-Registro-Visitantes#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "express": "^4.17.0",
+    "jest": "^24.8.0"
+  }
+}
