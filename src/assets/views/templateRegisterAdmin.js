@@ -3,15 +3,18 @@ export const templateRegisterAdmin = () => {
   const contentRegisterAdmin = `
 <div>
 <img src="assets/img/LobbyLogo.png" alt="">
-<h4>NUEVO VISITANTE</h4>
+<h4>Ingreso Administrador</h4>
 <hr>
-<imput id="visitante" type="text" placeholder="TIPO DE VISITANTE">
-<imput id="fecha" type="text" placeholder="FECHA DE LLEGADA">
-<imput id="hora" type="text" placeholder="HORA DE LLEGADA">
-<imput id="nombre" type="text" placeholder="NOMBRE Y APELLIDO">
-<imput id="rut" type="text" placeholder="RUT">
-<imput id="foto" type="text" placeholder="SELECCIONAR FOTO(OPCIONAL)">
-<imput id="anfitrion" type="text" placeholder="ANFITRION">
+<input id="nombre" type="text" placeholder="Nombre Y Apellido">
+<br>
+<br>
+<input id="correo" type="text" placeholder="Correo Electronico">
+<br>
+<br>
+<input id="contraseña" type="text" placeholder="Contraseña">
+<br>
+<br>
+<button class="btn btn-primary btn-lg" id=btnNew onclick="window.location.href='#/Admin'">INGRESAR</button></div>
 </div>`;
   containerRegisterAdmin.innerHTML = contentRegisterAdmin;
 

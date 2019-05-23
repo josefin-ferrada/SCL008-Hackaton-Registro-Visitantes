@@ -82,3 +82,32 @@
 [warn] ⚠  hosting: Port 5000 is not available. Trying another port...
 [info] i  hosting: Serving hosting files from: src
 [info] ✔  hosting: Local server: http://localhost:5005
+[debug] [2019-05-23T20:20:22.814Z] ----------------------------------------------------------------------
+[debug] [2019-05-23T20:20:22.819Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-05-23T20:20:22.820Z] CLI Version:   6.8.0
+[debug] [2019-05-23T20:20:22.820Z] Platform:      linux
+[debug] [2019-05-23T20:20:22.820Z] Node Version:  v10.15.3
+[debug] [2019-05-23T20:20:22.895Z] Time:          Thu May 23 2019 16:20:22 GMT-0400 (GMT-04:00)
+[debug] [2019-05-23T20:20:22.895Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-23T20:20:22.953Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-23T20:20:22.954Z] > authorizing via signed-in user
+[debug] [2019-05-23T20:20:22.954Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-23T20:20:22.958Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-23T20:20:22.958Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-23T20:20:23.324Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-23T20:20:23.371Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-23T20:20:24.528Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-23T20:20:24.532Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-23T20:20:25.608Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/luci/Documentos/Laboratoria/SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-23T20:20:25.617Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-23T20:20:26.220Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
