@@ -16,7 +16,18 @@ export const templateNewVisitor = () => {
           <p>        
             Seleccionar foto (opcional) </p>     
             <input type="file" name="archivosubido">                
-        </form>`
+        </form><br>
+        <form>
+        <div>
+        <label for="mySearch"><p>Anfitrión</p></label>
+        <input type="search" id="mySearch" name="q" size="30" minlength="4" maxlength="8">
+        <button>Buscar</button>
+    <span class="validity"></span>
+  </div>
+</form><br>
+        <div>
+            <button id="register" class="sign-in-style">Registrar visitante</button>
+            </div>`
     //pasar cel contenido al div
     containerNewVisitor.innerHTML = contentNewVisitor;
     //le pido que busque el id del botón dentro del div cerrado
