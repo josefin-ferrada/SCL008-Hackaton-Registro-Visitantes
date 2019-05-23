@@ -4,7 +4,6 @@ export const templateRegisterAdmin = () => {
 <div>
 <img src="assets/img/LobbyLogo.png" alt="">
 <h4>Ingreso Administrador</h4>
-
 <input id="nombre" type="text" placeholder="Nombre Y Apellido">
 <br>
 <br>
@@ -15,7 +14,6 @@ export const templateRegisterAdmin = () => {
 <br>
 <br>
 <button class="btn btn-primary btn-lg" id=btnNew onclick="window.location.href='#/admin'">INGRESAR</button></div>
-
 </div>`;
   containerRegisterAdmin.innerHTML = contentRegisterAdmin;
 
