@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [debug] [2019-05-23T18:01:12.751Z] ----------------------------------------------------------------------
 [debug] [2019-05-23T18:01:12.756Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
 [debug] [2019-05-23T18:01:12.756Z] CLI Version:   6.8.0
@@ -139,3 +140,30 @@
 [info] i  hosting: Serving hosting files from: src
 [info] ✔  hosting: Local server: http://localhost:5000
 >>>>>>> e60d91a12faf85608d0dc97c894d6ba95ec40582
+=======
+[debug] [2019-05-23T19:04:52.355Z] ----------------------------------------------------------------------
+[debug] [2019-05-23T19:04:52.357Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-05-23T19:04:52.357Z] CLI Version:   6.8.0
+[debug] [2019-05-23T19:04:52.357Z] Platform:      linux
+[debug] [2019-05-23T19:04:52.357Z] Node Version:  v11.1.0
+[debug] [2019-05-23T19:04:52.357Z] Time:          Thu May 23 2019 15:04:52 GMT-0400 (GMT-04:00)
+[debug] [2019-05-23T19:04:52.357Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-23T19:04:52.363Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-23T19:04:52.363Z] > authorizing via signed-in user
+[debug] [2019-05-23T19:04:52.363Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-23T19:04:52.365Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-23T19:04:53.562Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-23T19:04:53.567Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-23T19:04:54.656Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/laboratoriad306/Escritorio/SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-23T19:04:54.663Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-23T19:04:55.031Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
+>>>>>>> Stashed changes
