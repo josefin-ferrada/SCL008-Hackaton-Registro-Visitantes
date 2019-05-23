@@ -1,8 +1,16 @@
 import { templateIndex } from './assets/views/templateIndex.js'
+import { templateNewVisitor } from './assets/views/templateNewVisitor.js';
+import { templateFinish } from './assets/views/templateFinish.js';
 
 const changeRouter = (hash) => {
 
     if (hash === '') {
+        return showTemplate(hash);
+    }
+    if (hash === '#/NewVisitor') {
+        return showTemplate(hash);
+    }
+    if (hash === '#/Finish') {
         return showTemplate(hash);
     }
 
@@ -20,7 +28,12 @@ const showTemplate = (hash) => {
         case '': 
             return containerRoot.appendChild(templateIndex()); 
         break;
-        
+        case 'NewVisitor': 
+            return containerRoot.appendChild(templateNewVisitor());
+        break;
+        case 'Finish': 
+            return containerRoot.appendChild(templateFinish());
+        break;
     }
 }
 

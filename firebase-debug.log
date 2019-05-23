@@ -53,3 +53,28 @@
 [warn] !  hosting: Port 5000 is not available. Trying another port...
 [info] i  hosting: Serving hosting files from: src
 [info] +  hosting: Local server: http://localhost:5005
+[debug] [2019-05-23T03:03:35.470Z] ----------------------------------------------------------------------
+[debug] [2019-05-23T03:03:35.479Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JFR\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-05-23T03:03:35.480Z] CLI Version:   6.10.0
+[debug] [2019-05-23T03:03:35.480Z] Platform:      win32
+[debug] [2019-05-23T03:03:35.480Z] Node Version:  v11.8.0
+[debug] [2019-05-23T03:03:35.485Z] Time:          Wed May 22 2019 23:03:35 GMT-0400 (GMT-04:00)
+[debug] [2019-05-23T03:03:35.485Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-23T03:03:35.586Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-23T03:03:35.588Z] > authorizing via signed-in user
+[debug] [2019-05-23T03:03:35.588Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-23T03:03:35.595Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-23T03:03:37.102Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-23T03:03:37.108Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-23T03:03:38.192Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'c:\Users\JFR\Documents\laboratoria\SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-23T03:03:38.227Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-23T03:03:39.438Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000
