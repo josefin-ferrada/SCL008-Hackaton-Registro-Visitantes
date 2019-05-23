@@ -2,6 +2,7 @@ import { templateIndex } from './assets/views/templateIndex.js';
 import { templateNewVisitor } from './assets/views/templateNewVisitor.js';
 import { templateFinish } from './assets/views/templateFinish.js';
 import { templateRegisterAdmin } from './assets/views/templateRegisterAdmin.js';
+import { templateAdmin } from './assets/views/templateAdmin.js';
 
 const changeRouter = hash => {
   if (hash === '') {
@@ -14,6 +15,9 @@ const changeRouter = hash => {
     return showTemplate(hash);
   }
   if (hash === '#/RegisterAdmin') {
+    return showTemplate(hash);
+  }
+  if (hash === '#/admin') {
     return showTemplate(hash);
   }
 };
@@ -39,6 +43,9 @@ const showTemplate = hash => {
     case 'RegisterAdmin':
       return containerRoot.appendChild(templateRegisterAdmin());
       break;
+    case 'admin':
+      return containerRoot.appendChild(templateAdmin());
+    break;
   }
 };
 
