@@ -73,7 +73,7 @@ export const templateActiveVisitors = () => {
                 <div class="card-body">
                     <div class="row">
                     <div class="col-2">
-                    FOTO
+                    <img src="https://firebasestorage.googleapis.com/v0/b/hackaton-registro-visitantes.appspot.com/o/${element.photo}" class="rounded-circle">
                     </div>
                     <div class="col-2">
                     <p class="card-title">${element.Date}</p>

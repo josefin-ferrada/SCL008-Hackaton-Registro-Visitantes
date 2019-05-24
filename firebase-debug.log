@@ -56,3 +56,32 @@
 [debug] [2019-05-24T01:57:06.883Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: src
 [info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-05-24T16:48:38.348Z] ----------------------------------------------------------------------
+[debug] [2019-05-24T16:48:38.406Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JFR\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-05-24T16:48:38.407Z] CLI Version:   6.10.0
+[debug] [2019-05-24T16:48:38.407Z] Platform:      win32
+[debug] [2019-05-24T16:48:38.407Z] Node Version:  v11.8.0
+[debug] [2019-05-24T16:48:38.820Z] Time:          Fri May 24 2019 12:48:38 GMT-0400 (GMT-04:00)
+[debug] [2019-05-24T16:48:38.820Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-24T16:48:39.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-24T16:48:39.019Z] > authorizing via signed-in user
+[debug] [2019-05-24T16:48:39.019Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-24T16:48:39.024Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-24T16:48:39.025Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-24T16:48:40.896Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T16:48:40.994Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-24T16:48:42.607Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T16:48:42.611Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-24T16:48:45.123Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\JFR\Documents\laboratoria\SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-24T16:48:45.133Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-24T16:48:46.028Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000

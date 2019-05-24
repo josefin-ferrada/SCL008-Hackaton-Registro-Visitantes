@@ -11,7 +11,7 @@ export const templateNewVisitor = () => {
     </button>
     
     </nav>
-    <form class="col-9">
+    <div class="col-9">
     <p><strong>Nuevo visitante</strong></p>
       <div class="form-group">
         <label for="exampleInputEmail1">Nombre y Apellido</label>
@@ -32,7 +32,7 @@ export const templateNewVisitor = () => {
       </div>
     <div class="form-group">
     <label for="exampleFormControlFile1">Añadir foto (opcional)</label>
-    <input id="photo" type="file" class="form-control-file">
+    <input id="photo" name="pic" accept="image/*" type="file" class="form-control-file">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Anfitrión</label>
@@ -57,8 +57,17 @@ export const templateNewVisitor = () => {
         let checkIn = containerNewVisitor.querySelector('#hour').value;
         let visitorRut = containerNewVisitor.querySelector('#rut').value;
         let host = containerNewVisitor.querySelector('#search').value;
+        let photo = containerNewVisitor.querySelector('#photo').files[0];
+        let namePhoto = "";
 
-        registerVisitor(nameLastName,arrivalDate,checkIn,visitorRut,host)
+        if (photo) {
+          const ref = firebase.storage().ref();
+          namePhoto = (+new Date())+'-'+ photo.name;
+          const metadata = { contentType: photo.type };
+          const task = ref.child(namePhoto).put(photo,metadata);
+        }
+
+        registerVisitor(nameLastName,arrivalDate,checkIn,visitorRut,host,namePhoto)
 
     });
 
