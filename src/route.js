@@ -5,6 +5,7 @@ import { templateRegisterAdmin } from './assets/views/templateRegisterAdmin.js';
 import { templateAdmin } from './assets/views/templateAdmin.js';
 import { templateActiveVisitors } from './assets/views/templateActiveVisitors.js';
 import { templateHost } from './assets/views/templateHost.js';
+import { templateAnalytics } from './assets/views/templateAnalytics.js';
 
 
 const changeRouter = hash => {
@@ -27,6 +28,9 @@ const changeRouter = hash => {
     return showTemplate(hash);
   }
   if (hash === '#/NewAnf') {
+    return showTemplate(hash);
+  }
+  if (hash === '#/analytics') {
     return showTemplate(hash);
   }
 };
@@ -60,6 +64,9 @@ const showTemplate = hash => {
     break;
     case 'NewAnf':
       return containerRoot.appendChild(templateHost());
+    break;
+    case 'analytics':
+      return containerRoot.appendChild(templateAnalytics());
     break;
 
   }

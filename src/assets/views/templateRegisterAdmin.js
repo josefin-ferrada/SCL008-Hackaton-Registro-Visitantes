@@ -41,7 +41,7 @@ export const templateRegisterAdmin = () => {
           <div class="form-group">
           <input id="pass" type="password"  class="form-control" class="form-group" placeholder="Contraseña">
           </div>
-          <button class="btn btn-primary btn-lg" id="btnNew" onclick="window.location.href='#/admin'">INGRESAR</button>
+          <button class="btn btn-primary btn-lg" id="btnNew" onclick="window.location.href='#/analytics'">INGRESAR</button>
           
         </div>
         

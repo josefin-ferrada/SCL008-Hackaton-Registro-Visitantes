@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-size: 17px;
 }
 html {
   overflow-y: scroll;
@@ -23,3 +24,5 @@ html {
   background-color: #f34565 !important;
   border-color: #f34565 !important;
 }
+
+
