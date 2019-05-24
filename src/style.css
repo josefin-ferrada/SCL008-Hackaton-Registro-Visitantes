@@ -6,7 +6,8 @@ html {
 }
 .center {
   display: grid;
-  padding: 15%;
+  padding: 5%;
+  margin: 100px;
   
 }
 
@@ -22,3 +23,11 @@ html {
   background-color: #f34565 !important;
   border-color: #f34565 !important;
 }
+
+.text{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
