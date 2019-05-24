@@ -1,7 +1,7 @@
 export const templateAdmin = () => {
-    //creamos div que contendrá la plantilla
-    const containerAdmin = document.createElement('div');
-    const contentAdmin = `<head>
+  //creamos div que contendrá la plantilla
+  const containerAdmin = document.createElement('div');
+  const contentAdmin = `<head>
                             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#"></a>
                         <img src="./assets/img/LobbyLogo.png" style="height: 70px; width: 200px" alt="">
@@ -26,16 +26,14 @@ export const templateAdmin = () => {
                         </div>
                         </nav>
                          
-                        </head>`
-    //pasar cel contenido al div
-    containerAdmin.innerHTML = contentAdmin;
-    //le pido que busque el id del botón dentro del div cerrado
-    const btn = containerAdmin.querySelector('#activeVisitors');
+                        </head>`;
+  //pasar cel contenido al div
+  containerAdmin.innerHTML = contentAdmin;
+  //le pido que busque el id del botón dentro del div cerrado
+  const btn = containerAdmin.querySelector('#activeVisitors');
 
-    //evento del botón que llama a la autentificación de Google
-    btn.addEventListener('click', () => {
+  //evento del botón que llama a la autentificación de Google
+  btn.addEventListener('click', () => {});
 
-    });
-
-    return containerAdmin;
-}
+  return containerAdmin;
+};
