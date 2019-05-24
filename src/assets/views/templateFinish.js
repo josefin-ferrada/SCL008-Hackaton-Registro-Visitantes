@@ -1,7 +1,7 @@
 export const templateFinish = () => {
     //creamos div que contendrá la plantilla
     const containerFinish = document.createElement('div');
-    const contentFinish = `<div><button id="finish" >mensaje exito</button> <button onclick="window.location.href='#/admin'"> volver a admin</button></div>`
+    const contentFinish = `<div><button id="finish" >mensaje exito</button> <button onclick="window.location.href='#/activeVisitors'"> volver a admin</button></div>`
     //pasar cel contenido al div
     containerFinish.innerHTML = contentFinish;
     //le pido que busque el id del botón dentro del div cerrado

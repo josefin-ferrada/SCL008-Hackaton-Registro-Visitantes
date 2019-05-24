@@ -3,31 +3,47 @@ import { registerVisitor } from '../js/visitors.js';
 export const templateNewVisitor = () => {
     //creamos div que contendrá la plantilla
     const containerNewVisitor = document.createElement('div');
-    const contentNewVisitor = `    <img src="assets/img/LobbyLogo.png" width="150px" alt="logo">
+    const contentNewVisitor = `  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" onclick="window.location.href=''"></a>
+    <img src="./assets/img/LobbyLogo.png" style="height: 70px; width: 200px" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    </nav>
+    <form class="col-9">
     <p><strong>Nuevo visitante</strong></p>
-    <p>Nombre y Apellido</p>
-        <input type="text" class="lastname" id="name" name="">
-        <p>Fecha de llegada </p>
-        <input id="date" type="date">
-        <p>Hora de llegada </p>
-        <input type="time" id="hour" name="">
-        <p>Rut </p>
-        <input type="text" id="rut" name="">
-        <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
-          <p>        
-            Seleccionar foto (opcional) </p>     
-            <input type="file" name="archivosubido">                
-        </form><br>
-        <form>
-        <div>
-        <label for="mySearch"><p>Anfitrión</p></label>
-        <input type="search" id="search" name="q" size="30" minlength="4" maxlength="80">
-        <button>Buscar</button>
-    <span class="validity"></span>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nombre y Apellido</label>
+        <input type="text"   id="name" class="form-control" >
+        
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Fecha de llegada </label>
+        <input id="date" type="date" class="form-control" placeholder="Password">
+      </div>
+      <div class="form-group">
+      <label for="exampleInputPassword1">Hora de llegada</label>
+      <input type="time" id="hour" class="form-control" placeholder="Password">
+    </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Rut</label>
+    <input type="text" id="rut" class="form-control">
+      </div>
+    <div class="form-group">
+    <label for="exampleFormControlFile1">Añadir foto (opcional)</label>
+    <input id="photo" type="file" class="form-control-file">
   </div>
-</form><br>
-        <div>
-        <button id="newvisitor" onclick="window.location.href='#/Finish'">Registrar</button>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Anfitrión</label>
+    <select class="form-control" id="search" >
+  <option>Default select</option>
+  
+</select>
+      </div>
+      
+      <button  id="newvisitor" onclick="window.location.href='#/Finish'" type="submit" class="btn btn-primary">Registrar</button>
+    
             </div>`
     //pasar cel contenido al div
     containerNewVisitor.innerHTML = contentNewVisitor;
