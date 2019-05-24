@@ -1,6 +1,7 @@
 body {
   background-color: white;
   font-size: 17px;
+
 }
 html {
   overflow-y: scroll;
@@ -8,6 +9,7 @@ html {
 .center {
   display: grid;
   padding: 15%;
+
 }
 
 .logo {
@@ -15,13 +17,24 @@ html {
   width: 700px;
   size: 300px 500px;
   height: 250px;
+
   text-align: center;
+
 }
+
 .btn-primary {
   color: #fff;
   background-color: #f34565 !important;
   border-color: #f34565 !important;
 }
+
+.text{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
 .switchBtn {
   position: relative;
   display: inline-block;
@@ -75,3 +88,4 @@ input:checked + .slide:before {
 .slide.round:before {
   border-radius: 50%;
 }
+

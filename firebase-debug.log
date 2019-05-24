@@ -84,6 +84,123 @@
  
 [debug] [2019-05-24T16:48:46.028Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: src
+
+[debug] [2019-05-23T21:57:32.937Z] ----------------------------------------------------------------------
+[debug] [2019-05-23T21:57:32.939Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-05-23T21:57:32.940Z] CLI Version:   6.8.0
+[debug] [2019-05-23T21:57:32.940Z] Platform:      linux
+[debug] [2019-05-23T21:57:32.940Z] Node Version:  v11.1.0
+[debug] [2019-05-23T21:57:32.940Z] Time:          Thu May 23 2019 17:57:32 GMT-0400 (GMT-04:00)
+[debug] [2019-05-23T21:57:32.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-23T21:57:32.946Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-23T21:57:32.946Z] > authorizing via signed-in user
+[debug] [2019-05-23T21:57:32.946Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-23T21:57:32.948Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-23T21:57:32.948Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-23T21:57:33.127Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-23T21:57:33.191Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-23T21:57:34.300Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-23T21:57:34.304Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-23T21:57:35.370Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/laboratoriad306/Escritorio/SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-23T21:57:35.376Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-23T21:57:35.757Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5005
+[debug] [2019-05-24T03:43:18.122Z] ----------------------------------------------------------------------
+[debug] [2019-05-24T03:43:18.129Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-05-24T03:43:18.130Z] CLI Version:   6.8.0
+[debug] [2019-05-24T03:43:18.130Z] Platform:      linux
+[debug] [2019-05-24T03:43:18.130Z] Node Version:  v11.1.0
+[debug] [2019-05-24T03:43:18.195Z] Time:          Thu May 23 2019 23:43:18 GMT-0400 (GMT-04:00)
+[debug] [2019-05-24T03:43:18.195Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-24T03:43:18.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-24T03:43:18.341Z] > authorizing via signed-in user
+[debug] [2019-05-24T03:43:18.341Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-24T03:43:18.347Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-24T03:43:18.348Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-24T03:43:19.495Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T03:43:19.635Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-24T03:43:26.399Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T03:43:26.404Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-24T03:43:28.159Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/laboratoriad306/Escritorio/SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-24T03:43:28.164Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-24T03:43:39.073Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2019-05-24T17:53:41.494Z] ----------------------------------------------------------------------
+[debug] [2019-05-24T17:53:41.502Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-05-24T17:53:41.503Z] CLI Version:   6.8.0
+[debug] [2019-05-24T17:53:41.503Z] Platform:      linux
+[debug] [2019-05-24T17:53:41.504Z] Node Version:  v11.1.0
+[debug] [2019-05-24T17:53:41.566Z] Time:          Fri May 24 2019 13:53:41 GMT-0400 (GMT-04:00)
+[debug] [2019-05-24T17:53:41.566Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-24T17:53:41.632Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-24T17:53:41.633Z] > authorizing via signed-in user
+[debug] [2019-05-24T17:53:41.633Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-24T17:53:41.637Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-24T17:53:41.637Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-24T17:53:41.802Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T17:53:41.921Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-24T17:53:43.002Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T17:53:43.005Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-24T17:53:44.101Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/laboratoriad306/Escritorio/SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-24T17:53:44.108Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-24T17:53:44.497Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-24T18:01:55.617Z] ----------------------------------------------------------------------
+[debug] [2019-05-24T18:01:55.619Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2019-05-24T18:01:55.619Z] CLI Version:   6.8.0
+[debug] [2019-05-24T18:01:55.619Z] Platform:      linux
+[debug] [2019-05-24T18:01:55.619Z] Node Version:  v11.1.0
+[debug] [2019-05-24T18:01:55.620Z] Time:          Fri May 24 2019 14:01:55 GMT-0400 (GMT-04:00)
+[debug] [2019-05-24T18:01:55.620Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-24T18:01:55.626Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-24T18:01:55.626Z] > authorizing via signed-in user
+[debug] [2019-05-24T18:01:55.626Z] [iam] checking project hackaton-registro-visitantes for permissions ["firebase.projects.get"]
+[debug] [2019-05-24T18:01:55.628Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes:testIamPermissions  
+
+[debug] [2019-05-24T18:01:56.716Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T18:01:56.720Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hackaton-registro-visitantes  
+ 
+[debug] [2019-05-24T18:01:57.773Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/laboratoriad306/Escritorio/SCL008-Hackaton-Registro-Visitantes'...
+[info] 
+[debug] [2019-05-24T18:01:57.778Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/193966524440/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-24T18:01:58.128Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5005
+
 [info] ✔  hosting: Local server: http://localhost:5000
 [debug] [2019-05-23T21:38:02.278Z] ----------------------------------------------------------------------
 [debug] [2019-05-23T21:38:02.282Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
@@ -144,7 +261,7 @@
 [warn] ⚠  hosting: Port 5000 is not available. Trying another port...
 [info] i  hosting: Serving hosting files from: src
 [info] ✔  hosting: Local server: http://localhost:5005
->>>>>>> Stashed changes
+
 [debug] [2019-05-24T17:53:38.413Z] ----------------------------------------------------------------------
 [debug] [2019-05-24T17:53:38.420Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
 [debug] [2019-05-24T17:53:38.421Z] CLI Version:   6.8.0
@@ -224,3 +341,4 @@
 [debug] [2019-05-24T18:41:41.350Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: src
 [info] ✔  hosting: Local server: http://localhost:5000
+
